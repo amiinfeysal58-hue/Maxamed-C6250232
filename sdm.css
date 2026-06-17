@@ -1,0 +1,62 @@
+body{
+    background:whit;
+}
+    
+
+#wrapper{
+    width:965px;
+    margin:55px auto;
+    background:pink;
+}
+
+header{padding: 10px;
+    background:navy;
+    color: white;
+    height:95px;
+    text-align:center;
+   
+}
+nav a:hover{
+    color:#ffefe9;
+            background-color: navy;}
+#content{
+    display:flex;
+}
+.box{clear: both; color: rgb(13, 214, 214);border-bottom: 2px solid rgb(51, 134, 143); font-size: 24px;  box-shadow: 5px 5px 5px rgb(181, 181, 101);}
+#nav{
+    width:150px;
+    background-color:orange;
+    padding:35px 25px;  
+}
+.h1{border: 5px solid rgb(42, 91, 96); background-color: #aea; margin-bottom: 20px;text-align: center;}
+
+
+nav ul{
+    list-style:none;
+}
+
+nav ul li{
+    margin-bottom:8px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:navy;
+    font-size:18px;
+}
+
+.sawir img{width: 100px; height: 120px; float: left; margin-right: 3px;}
+main{
+    flex:1;
+    padding:35px 15px;
+}
+
+
+footer{
+    background:navy;
+    color:white;
+    text-align:center;
+    padding:8px;
+    border-top:3px solid #8c6f40;
+    border-bottom:3px solid #8c6f40;
+}
